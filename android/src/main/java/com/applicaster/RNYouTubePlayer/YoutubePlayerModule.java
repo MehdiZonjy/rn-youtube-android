@@ -18,7 +18,7 @@ import java.util.Map;
 public class YoutubePlayerModule extends ReactContextBaseJavaModule implements ActivityEventListener {
     protected static final String TAG = "YoutubePlayerModule";
     private static final String STATE_STOPPED = "stopped";
-    private static final int YOUTUBE_PLAYER_ACTIVITY = 987654; // TODO: should be moved to values.xml
+    private static final int YOUTUBE_PLAYER_ACTIVITY = 19131; // TODO: should be moved to values.xml
 
     final ReactApplicationContext reactContext;
     private Promise promise;
